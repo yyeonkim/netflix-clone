@@ -1,1 +1,1 @@
-# netflix-homepage-clone
+# netflix-landing-pg-clone
