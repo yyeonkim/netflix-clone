@@ -1,5 +1,6 @@
 :root {
   --primary-color: #e50914;
+  --dark-color: #141414;
 }
 
 * {
@@ -12,7 +13,7 @@ body {
   font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #000;
-  color: #f6f2f7;
+  color: #999;
 }
 
 ul {
@@ -121,6 +122,30 @@ img {
   font-size: 1rem;
   padding: 1.5rem 0.1rem;
   width: 500px;
+}
+
+/* Tabs */
+.tabs {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+
+.tabs .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
 }
 
 /* Buttons */
