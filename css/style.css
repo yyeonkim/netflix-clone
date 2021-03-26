@@ -95,6 +95,17 @@ img {
   font-size: 1.5rem;
 }
 
+.showcase-content form {
+  display: flex;
+  align-items: center;
+}
+
+.showcase-content input {
+  font-size: 1rem;
+  padding: 1.5rem 0.1rem;
+  width: 500px;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
