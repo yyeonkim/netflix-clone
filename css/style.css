@@ -12,7 +12,7 @@ body {
   font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #000;
-  color: #999;
+  color: #f6f2f7;
 }
 
 ul {
@@ -63,6 +63,36 @@ img {
   position: absolute;
   top: 35%;
   right: 0;
+}
+
+.showcase-content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.showcase-content h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+}
+
+.showcase-content p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.19rem;
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
+
+.showcase-content p:first-of-type {
+  font-size: 1.5rem;
 }
 
 /* Buttons */
