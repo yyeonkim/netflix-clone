@@ -1,0 +1,112 @@
+@media (max-width: 960px) {
+  .showcase-top img {
+    width: 110px;
+    left: 8%;
+  }
+
+  .showcase-top a {
+    right: 8%;
+  }
+
+  .showcase-content {
+    height: 70vh;
+    margin-top: 4rem;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .showcase-content h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .showcase-content p {
+    font-size: 1.4rem;
+  }
+
+  .showcase-content p:last-of-type {
+    font-size: 1rem;
+  }
+
+  .showcase-content .line-break-960 {
+    display: initial;
+  }
+
+  .showcase-content form {
+    flex-direction: column;
+  }
+
+  .showcase-content input {
+    padding: 1.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .showcase-content button {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  .footer .footer-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn-xl {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .text-xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1.3rem;
+  }
+
+  .text-md {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .showcase-content p {
+    font-size: 1.2rem;
+  }
+
+  .showcase-content p:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  .showcase-content .line-break-960 {
+    display: none;
+  }
+
+  .showcase-content .line-break-700 {
+    display: initial;
+  }
+
+  .showcase-content input {
+    padding: 0.9rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .showcase::after {
+    box-shadow: inset 0 10px 20px black, inset 0 -10px 80px black;
+  }
+
+  #tab-1-content .tab-1-content-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  #tab-2-content .tab-2-content-top {
+    display: block;
+    text-align: center;
+  }
+
+  #tab-2-content .tab-2-content-bottom {
+    grid-template-columns: 1fr;
+  }
+}
